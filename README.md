@@ -17,26 +17,6 @@ Feel free to improve on any code provided.
 - Image Loading
 - Restclient
 
-### Example
-
-####HTTP Client Example
-
-```java
-getEndpoint().getOrganizationMember("bypasslane", new Callback<List<User>>() {
-    @Override
-    public void success(List<User> users, Response response) {}
-
-    @Override
-    public void failure(RetrofitError error) {}
-});
-```
-####Load Image Example
-```java
-ImageLoader.createImageLoader(this)
- .load("http://.../name.jpeg")
- .into(image);
-```
-
 ####Images of the finish test:
 
 <img src="http://migueledgarcia.com/wordpress/wp-content/uploads/2014/07/Screenshot_2014-07-14-19-26-36.png" hspace="5">
